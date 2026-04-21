@@ -1,3 +1,5 @@
+import utils.transport
+import utils.session
 from flask import Flask, request, jsonify, abort,render_template
 
 from dotenv import load_dotenv
